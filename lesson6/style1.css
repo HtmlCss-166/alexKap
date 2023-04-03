@@ -1,0 +1,37 @@
+#Submit {
+    background-color: green;
+    color: white;
+    padding: 15px;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 15px;
+    border: 2px;
+    box-shadow: 10px 5px red;
+}
+#userReview {
+    border-radius: 15px;
+    border: 2px solid green;
+    padding: 15px;
+}
+#Submit:hover {
+    background-color: red;
+}
+#Submit:active {
+    background-color: black;
+    box-shadow: 10px 5px yellow;
+}
+#userReview:focus {
+    background-color:blue;
+    color: burlywood;
+}
+/* css attribute styling placeholder */
+#userReview::placeholder {
+    color: firebrick;
+}
+/* CSS BEFORE AND AFTER STYLING */
+#Submit::before {
+    content: "Submit";
+}
+#Submit::after {
+    content: "After";
+}
